@@ -27,7 +27,7 @@ header ul {
 }
 
 header ul li {
-  float: left;
+  
   display: inline-block;
   font-size: 25px;
 }
