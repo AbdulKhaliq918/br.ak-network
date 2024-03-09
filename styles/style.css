@@ -185,10 +185,9 @@ footer p {
   text-align: center;
   background-color: black;
   color: white;
-  padding: 20px;
+  padding:5px;
 }
 
 footer a {
   color: white;
-  border-bottom: 1px solid white;
 }
