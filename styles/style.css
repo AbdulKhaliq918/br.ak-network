@@ -37,23 +37,22 @@ header ul li a {
   color: black;
 }
 
-.background {
+.hero-section {
   clear: left;
   background-image: url(/assets/images/architect.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   height: 500px;
-  margin-bottom: 50px;
 }
 
-.background p {
+.hero-section p {
   text-align: center;
   padding: 238px;
   font-size: 47px;
   color: white;
 }
 
-.background p b {
+.hero-section p b {
   background-color: rgba(0, 0, 0, 0.719);
   padding: 10px;
 }
