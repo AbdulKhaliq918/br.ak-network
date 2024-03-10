@@ -9,41 +9,45 @@
   width: 80%;
   margin: 0 auto;
 }
-
-a {
-  text-decoration: none;
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  position: fixed;
+  width: 100%;
+  z-index: 3;
+  background-color: white;
+  box-shadow: 0px 6px 10px rgba(128, 128, 128, 0.504);
 }
-
-header .logo {
-  float: left;
-  padding: 15px;
-  font-size: 25px;
-  padding-left: 40px;
+header p {
+  display: flex;
+  font-size: 1.2rem;
+  margin-left: 30px;
 }
-
-header ul {
-  float: right;
-  list-style: none;
-  padding-right: 50px;
+header b {
+  margin-right: 10px;
 }
-
-header ul li {
-  display: inline-block;
-  font-size: 25px;
+.nav {
+  display: flex;
+  align-items: center;
 }
-
-header ul li a {
-  display: inline-block;
-  padding: 15px;
+.nav a {
+  padding: 10px;
   color: black;
+  text-decoration: none;
+  font-size: 1.2rem;
+  text-align: center;
 }
-
+.nav a:hover {
+  background-color: rgba(128, 128, 128, 0.504);
+}
 .hero-section {
   clear: left;
   background-image: url(/assets/images/architect.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  height: 500px;
+  height: 600px;
 }
 
 .hero-section p {
@@ -62,7 +66,7 @@ header ul li a {
   margin-top: 90px;
   margin-bottom: 5px;
 }
-.project-house{
+.project-house {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -100,7 +104,7 @@ header ul li a {
   margin-bottom: 10px;
   background-size: cover;
   background-position: center;
-  display:flex;
+  display: flex;
   position: relative;
 }
 
