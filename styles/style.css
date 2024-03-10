@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 
-.contaner {
+.container {
   width: 80%;
   margin: 0 auto;
 }
@@ -27,7 +27,6 @@ header ul {
 }
 
 header ul li {
-  
   display: inline-block;
   font-size: 25px;
 }
@@ -99,42 +98,40 @@ header ul li a {
   display: inline-block;
 }
 
-.about {
-  margin-top: 50px;
+.about-section {
+  margin-top: 90px;
 }
 
-.main-p {
-  margin-top: 40px;
-  margin-bottom: 40px;
+.about-p {
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
-.about-1,
-.about-2,
-.about-3,
-.about-4 {
-  display: inline-block;
+.team {
+  width: 24%;
+  height: 380px;
 }
-
-.about-1,
-.about-2,
-.about-3,
-.about-4,
+.about-team {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+.team,
 h2 {
   padding-top: 10px;
 }
-
-.about-1,
-.about-2,
-.about-3,
-.about-4,
-h5 {
-  padding-top: 10px;
+.team img {
+  filter: grayscale(60%);
 }
 
-.about-1 p,
-.about-2 p,
-.about-3 p,
-.about-4 p {
+.grade {
+  padding-top: 10px;
+  padding-left: 3px;
+}
+
+.team p {
   margin-top: 15px;
 }
 
@@ -142,8 +139,9 @@ h5 {
   border: 1px solid grey;
   text-align: center;
   padding: 5px;
+  width: 100%;
   background-color: rgb(224, 224, 224);
-  border-style: none;
+  border: none;
   margin-top: 10px;
 }
 
@@ -173,18 +171,18 @@ h5 {
   background-color: black;
   color: white;
   cursor: pointer;
-  font-weight:bolder;
+  font-weight: bolder;
   font-size: 15px;
- }
- .btn2:hover{
+}
+.btn2:hover {
   background-color: white;
   color: black;
- }
-.map-section h1{
+}
+.map-section h1 {
   margin-top: 90px;
   margin-bottom: 5px;
 }
-.map-section p{
+.map-section p {
   margin-top: 20px;
 }
 .map-section img {
@@ -196,6 +194,5 @@ footer p {
   text-align: center;
   background-color: black;
   color: white;
-  padding:5px;
+  padding: 5px;
 }
-
