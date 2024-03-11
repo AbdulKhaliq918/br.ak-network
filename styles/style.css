@@ -206,3 +206,21 @@ footer p {
   color: white;
   padding: 5px;
 }
+@media screen and (max-width: 768px) {
+  .house {
+      width: 48%;
+  }
+  .team{
+      width: 48%;
+      height: 100%;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .house, .team {
+      width: 100%;
+  }
+  .nav{
+      display: none;
+  }
+}
