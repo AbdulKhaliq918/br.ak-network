@@ -43,23 +43,28 @@ header b {
   background-color: rgba(128, 128, 128, 0.504);
 }
 .hero-section {
-  clear: left;
   background-image: url(/assets/images/architect.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   height: 600px;
+  width: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .hero-section p {
   text-align: center;
-  padding: 238px;
-  font-size: 47px;
+  padding: 10px;
+  font-size:2rem;
   color: white;
+  display: inline-block;
 }
 
 .hero-section p b {
   background-color: rgba(0, 0, 0, 0.719);
   padding: 10px;
+  display: inline-block;
 }
 
 .project-section h1 {
@@ -162,7 +167,7 @@ h2 {
 }
 
 .contact-section h1 {
-  margin-top: 90px;
+  margin-top: 180px;
 }
 
 .contact-section p {
